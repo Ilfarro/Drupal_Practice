@@ -1,0 +1,7 @@
+ata.content:
+  path: '/ata'
+  defaults:
+    _controller: '\Drupal\ata\Controller\AtaController::content'
+    _title: 'Ata'
+  requirements:
+    _permission: 'access content'

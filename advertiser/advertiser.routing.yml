@@ -1,0 +1,7 @@
+advertiser.content:
+  path: '/advertiser'
+  defaults:
+    _controller: '\Drupal\advertiser\Controller\AdvertiserController::content'
+    _title: 'Advertiser'
+  requirements:
+    _permission: 'access content'

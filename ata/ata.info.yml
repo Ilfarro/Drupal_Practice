@@ -1,0 +1,26 @@
+name: Ata
+description: 'Barebones ata entity'
+package: Custom
+
+type: module
+core: 8.x
+
+dependencies:
+  # - drupal:link
+  - drupal:views
+  # - paragraphs:paragraphs
+  # - webform:webform (>=8.x-5.x)
+
+test_dependencies:
+ - drupal:image
+
+configure: ata.settings
+
+php: 7.3
+
+# hidden: true
+
+# Note: do not add the 'version' or 'project' properties yourself.
+# They will be added automatically by the packager on drupal.org.
+# version: 1.0
+# project: 'ata'
