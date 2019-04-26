@@ -1,6 +1,84 @@
-ata.admin:
-  title: 'A module settings'
-  description: 'example of how to make an admin settings page link'
-  parent: system.admin_config_development
-  route_name: ata.content
+
+# Direksi menu items definition
+entity.direksi.collection:
+  title: 'Direksi list'
+  route_name: entity.direksi.collection
+  description: 'List Direksi entities'
+  parent: system.admin_structure
   weight: 100
+
+direksi.admin.structure.settings:
+  title: 'Direksi settings'
+  description: 'Configure Direksi entities'
+  route_name: direksi.settings
+  parent: system.admin_structure
+
+# Challenge menu items definition
+entity.challenge.collection:
+  title: 'Challenge list'
+  route_name: entity.challenge.collection
+  description: 'List Challenge entities'
+  parent: system.admin_structure
+  weight: 100
+
+challenge.admin.structure.settings:
+  title: 'Challenge settings'
+  description: 'Configure Challenge entities'
+  route_name: challenge.settings
+  parent: system.admin_structure
+
+# Live code menu items definition
+entity.live_code.collection:
+  title: 'Live code list'
+  route_name: entity.live_code.collection
+  description: 'List Live code entities'
+  parent: system.admin_structure
+  weight: 100
+
+live_code.admin.structure.settings:
+  title: 'Live code settings'
+  description: 'Configure Live code entities'
+  route_name: live_code.settings
+  parent: system.admin_structure
+
+# Mata pelajaran menu items definition
+entity.mata_pelajaran.collection:
+  title: 'Mata pelajaran list'
+  route_name: entity.mata_pelajaran.collection
+  description: 'List Mata pelajaran entities'
+  parent: system.admin_structure
+  weight: 100
+
+mata_pelajaran.admin.structure.settings:
+  title: 'Mata pelajaran settings'
+  description: 'Configure Mata pelajaran entities'
+  route_name: mata_pelajaran.settings
+  parent: system.admin_structure
+
+# Mentee menu items definition
+entity.mentee.collection:
+  title: 'Mentee list'
+  route_name: entity.mentee.collection
+  description: 'List Mentee entities'
+  parent: system.admin_structure
+  weight: 100
+
+mentee.admin.structure.settings:
+  title: 'Mentee settings'
+  description: 'Configure Mentee entities'
+  route_name: mentee.settings
+  parent: system.admin_structure
+
+# Mentor menu items definition
+entity.mentor.collection:
+  title: 'Mentor list'
+  route_name: entity.mentor.collection
+  description: 'List Mentor entities'
+  parent: system.admin_structure
+  weight: 100
+
+mentor.admin.structure.settings:
+  title: 'Mentor settings'
+  description: 'Configure Mentor entities'
+  route_name: mentor.settings
+  parent: system.admin_structure

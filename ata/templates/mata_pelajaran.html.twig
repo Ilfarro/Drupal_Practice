@@ -1,0 +1,22 @@
+{#
+/**
+ * @file mata_pelajaran.html.twig
+ * Default theme implementation to present Mata pelajaran data.
+ *
+ * This template is used when viewing Mata pelajaran pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_mata_pelajaran()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('mata_pelajaran') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

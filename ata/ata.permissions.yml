@@ -1,0 +1,180 @@
+add direksi entities:
+  title: 'Create new Direksi entities'
+
+administer direksi entities:
+  title: 'Administer Direksi entities'
+  description: 'Allow to access the administration form to configure Direksi entities.'
+  restrict access: true
+
+delete direksi entities:
+  title: 'Delete Direksi entities'
+
+edit direksi entities:
+  title: 'Edit Direksi entities'
+
+view published direksi entities:
+  title: 'View published Direksi entities'
+
+view unpublished direksi entities:
+  title: 'View unpublished Direksi entities'
+
+view all direksi revisions:
+  title: 'View all Direksi revisions'
+
+revert all direksi revisions:
+  title: 'Revert all Direksi revisions'
+  description: 'Role requires permission <em>view Direksi revisions</em> and <em>edit rights</em> for direksi entities in question or <em>administer direksi entities</em>.'
+
+delete all direksi revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Direksi revisions</em> and <em>delete rights</em> for direksi entities in question or <em>administer direksi entities</em>.'
+add challenge entities:
+  title: 'Create new Challenge entities'
+
+administer challenge entities:
+  title: 'Administer Challenge entities'
+  description: 'Allow to access the administration form to configure Challenge entities.'
+  restrict access: true
+
+delete challenge entities:
+  title: 'Delete Challenge entities'
+
+edit challenge entities:
+  title: 'Edit Challenge entities'
+
+view published challenge entities:
+  title: 'View published Challenge entities'
+
+view unpublished challenge entities:
+  title: 'View unpublished Challenge entities'
+
+view all challenge revisions:
+  title: 'View all Challenge revisions'
+
+revert all challenge revisions:
+  title: 'Revert all Challenge revisions'
+  description: 'Role requires permission <em>view Challenge revisions</em> and <em>edit rights</em> for challenge entities in question or <em>administer challenge entities</em>.'
+
+delete all challenge revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Challenge revisions</em> and <em>delete rights</em> for challenge entities in question or <em>administer challenge entities</em>.'
+add live code entities:
+  title: 'Create new Live code entities'
+
+administer live code entities:
+  title: 'Administer Live code entities'
+  description: 'Allow to access the administration form to configure Live code entities.'
+  restrict access: true
+
+delete live code entities:
+  title: 'Delete Live code entities'
+
+edit live code entities:
+  title: 'Edit Live code entities'
+
+view published live code entities:
+  title: 'View published Live code entities'
+
+view unpublished live code entities:
+  title: 'View unpublished Live code entities'
+
+view all live code revisions:
+  title: 'View all Live code revisions'
+
+revert all live code revisions:
+  title: 'Revert all Live code revisions'
+  description: 'Role requires permission <em>view Live code revisions</em> and <em>edit rights</em> for live code entities in question or <em>administer live code entities</em>.'
+
+delete all live code revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Live code revisions</em> and <em>delete rights</em> for live code entities in question or <em>administer live code entities</em>.'
+add mata pelajaran entities:
+  title: 'Create new Mata pelajaran entities'
+
+administer mata pelajaran entities:
+  title: 'Administer Mata pelajaran entities'
+  description: 'Allow to access the administration form to configure Mata pelajaran entities.'
+  restrict access: true
+
+delete mata pelajaran entities:
+  title: 'Delete Mata pelajaran entities'
+
+edit mata pelajaran entities:
+  title: 'Edit Mata pelajaran entities'
+
+view published mata pelajaran entities:
+  title: 'View published Mata pelajaran entities'
+
+view unpublished mata pelajaran entities:
+  title: 'View unpublished Mata pelajaran entities'
+
+view all mata pelajaran revisions:
+  title: 'View all Mata pelajaran revisions'
+
+revert all mata pelajaran revisions:
+  title: 'Revert all Mata pelajaran revisions'
+  description: 'Role requires permission <em>view Mata pelajaran revisions</em> and <em>edit rights</em> for mata pelajaran entities in question or <em>administer mata pelajaran entities</em>.'
+
+delete all mata pelajaran revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Mata pelajaran revisions</em> and <em>delete rights</em> for mata pelajaran entities in question or <em>administer mata pelajaran entities</em>.'
+add mentee entities:
+  title: 'Create new Mentee entities'
+
+administer mentee entities:
+  title: 'Administer Mentee entities'
+  description: 'Allow to access the administration form to configure Mentee entities.'
+  restrict access: true
+
+delete mentee entities:
+  title: 'Delete Mentee entities'
+
+edit mentee entities:
+  title: 'Edit Mentee entities'
+
+view published mentee entities:
+  title: 'View published Mentee entities'
+
+view unpublished mentee entities:
+  title: 'View unpublished Mentee entities'
+
+view all mentee revisions:
+  title: 'View all Mentee revisions'
+
+revert all mentee revisions:
+  title: 'Revert all Mentee revisions'
+  description: 'Role requires permission <em>view Mentee revisions</em> and <em>edit rights</em> for mentee entities in question or <em>administer mentee entities</em>.'
+
+delete all mentee revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Mentee revisions</em> and <em>delete rights</em> for mentee entities in question or <em>administer mentee entities</em>.'
+add mentor entities:
+  title: 'Create new Mentor entities'
+
+administer mentor entities:
+  title: 'Administer Mentor entities'
+  description: 'Allow to access the administration form to configure Mentor entities.'
+  restrict access: true
+
+delete mentor entities:
+  title: 'Delete Mentor entities'
+
+edit mentor entities:
+  title: 'Edit Mentor entities'
+
+view published mentor entities:
+  title: 'View published Mentor entities'
+
+view unpublished mentor entities:
+  title: 'View unpublished Mentor entities'
+
+view all mentor revisions:
+  title: 'View all Mentor revisions'
+
+revert all mentor revisions:
+  title: 'Revert all Mentor revisions'
+  description: 'Role requires permission <em>view Mentor revisions</em> and <em>edit rights</em> for mentor entities in question or <em>administer mentor entities</em>.'
+
+delete all mentor revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Mentor revisions</em> and <em>delete rights</em> for mentor entities in question or <em>administer mentor entities</em>.'

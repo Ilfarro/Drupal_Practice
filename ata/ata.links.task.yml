@@ -1,0 +1,162 @@
+# Direksi routing definition
+direksi.settings_tab:
+  route_name: direksi.settings
+  title: 'Settings'
+  base_route: direksi.settings
+
+entity.direksi.canonical:
+  route_name: entity.direksi.canonical
+  base_route: entity.direksi.canonical
+  title: 'View'
+
+entity.direksi.edit_form:
+  route_name: entity.direksi.edit_form
+  base_route: entity.direksi.canonical
+  title: 'Edit'
+
+entity.direksi.version_history:
+  route_name: entity.direksi.version_history
+  base_route: entity.direksi.canonical
+  title: 'Revisions'
+
+entity.direksi.delete_form:
+  route_name:  entity.direksi.delete_form
+  base_route:  entity.direksi.canonical
+  title: Delete
+  weight: 10
+
+# Challenge routing definition
+challenge.settings_tab:
+  route_name: challenge.settings
+  title: 'Settings'
+  base_route: challenge.settings
+
+entity.challenge.canonical:
+  route_name: entity.challenge.canonical
+  base_route: entity.challenge.canonical
+  title: 'View'
+
+entity.challenge.edit_form:
+  route_name: entity.challenge.edit_form
+  base_route: entity.challenge.canonical
+  title: 'Edit'
+
+entity.challenge.version_history:
+  route_name: entity.challenge.version_history
+  base_route: entity.challenge.canonical
+  title: 'Revisions'
+
+entity.challenge.delete_form:
+  route_name:  entity.challenge.delete_form
+  base_route:  entity.challenge.canonical
+  title: Delete
+  weight: 10
+
+# Live code routing definition
+live_code.settings_tab:
+  route_name: live_code.settings
+  title: 'Settings'
+  base_route: live_code.settings
+
+entity.live_code.canonical:
+  route_name: entity.live_code.canonical
+  base_route: entity.live_code.canonical
+  title: 'View'
+
+entity.live_code.edit_form:
+  route_name: entity.live_code.edit_form
+  base_route: entity.live_code.canonical
+  title: 'Edit'
+
+entity.live_code.version_history:
+  route_name: entity.live_code.version_history
+  base_route: entity.live_code.canonical
+  title: 'Revisions'
+
+entity.live_code.delete_form:
+  route_name:  entity.live_code.delete_form
+  base_route:  entity.live_code.canonical
+  title: Delete
+  weight: 10
+
+# Mata pelajaran routing definition
+mata_pelajaran.settings_tab:
+  route_name: mata_pelajaran.settings
+  title: 'Settings'
+  base_route: mata_pelajaran.settings
+
+entity.mata_pelajaran.canonical:
+  route_name: entity.mata_pelajaran.canonical
+  base_route: entity.mata_pelajaran.canonical
+  title: 'View'
+
+entity.mata_pelajaran.edit_form:
+  route_name: entity.mata_pelajaran.edit_form
+  base_route: entity.mata_pelajaran.canonical
+  title: 'Edit'
+
+entity.mata_pelajaran.version_history:
+  route_name: entity.mata_pelajaran.version_history
+  base_route: entity.mata_pelajaran.canonical
+  title: 'Revisions'
+
+entity.mata_pelajaran.delete_form:
+  route_name:  entity.mata_pelajaran.delete_form
+  base_route:  entity.mata_pelajaran.canonical
+  title: Delete
+  weight: 10
+
+# Mentee routing definition
+mentee.settings_tab:
+  route_name: mentee.settings
+  title: 'Settings'
+  base_route: mentee.settings
+
+entity.mentee.canonical:
+  route_name: entity.mentee.canonical
+  base_route: entity.mentee.canonical
+  title: 'View'
+
+entity.mentee.edit_form:
+  route_name: entity.mentee.edit_form
+  base_route: entity.mentee.canonical
+  title: 'Edit'
+
+entity.mentee.version_history:
+  route_name: entity.mentee.version_history
+  base_route: entity.mentee.canonical
+  title: 'Revisions'
+
+entity.mentee.delete_form:
+  route_name:  entity.mentee.delete_form
+  base_route:  entity.mentee.canonical
+  title: Delete
+  weight: 10
+
+# Mentor routing definition
+mentor.settings_tab:
+  route_name: mentor.settings
+  title: 'Settings'
+  base_route: mentor.settings
+
+entity.mentor.canonical:
+  route_name: entity.mentor.canonical
+  base_route: entity.mentor.canonical
+  title: 'View'
+
+entity.mentor.edit_form:
+  route_name: entity.mentor.edit_form
+  base_route: entity.mentor.canonical
+  title: 'Edit'
+
+entity.mentor.version_history:
+  route_name: entity.mentor.version_history
+  base_route: entity.mentor.canonical
+  title: 'Revisions'
+
+entity.mentor.delete_form:
+  route_name:  entity.mentor.delete_form
+  base_route:  entity.mentor.canonical
+  title: Delete
+  weight: 10
+

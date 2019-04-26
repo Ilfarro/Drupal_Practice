@@ -1,0 +1,30 @@
+entity.direksi.add_form:
+  route_name: entity.direksi.add_form
+  title: 'Add Direksi'
+  appears_on:
+    - entity.direksi.collection
+entity.challenge.add_form:
+  route_name: entity.challenge.add_form
+  title: 'Add Challenge'
+  appears_on:
+    - entity.challenge.collection
+entity.live_code.add_form:
+  route_name: entity.live_code.add_form
+  title: 'Add Live code'
+  appears_on:
+    - entity.live_code.collection
+entity.mata_pelajaran.add_form:
+  route_name: entity.mata_pelajaran.add_form
+  title: 'Add Mata pelajaran'
+  appears_on:
+    - entity.mata_pelajaran.collection
+entity.mentee.add_form:
+  route_name: entity.mentee.add_form
+  title: 'Add Mentee'
+  appears_on:
+    - entity.mentee.collection
+entity.mentor.add_form:
+  route_name: entity.mentor.add_form
+  title: 'Add Mentor'
+  appears_on:
+    - entity.mentor.collection
